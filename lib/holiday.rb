@@ -36,16 +36,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   :memorial_day => ["BBQ"]}
 }
 
-seasons.each do|season, holiday|
-  
- 
- if season == :winter
-   
-   holiday << supply 
-   
- end 
- 
- end
+
   
 end
 
